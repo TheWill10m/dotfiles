@@ -1,7 +1,6 @@
 [user]
 	name = Will Dalgleish
 	email = dev@wdalgleish.com
-	#signingkey = E0748C40B0F726A5
 	signingkey = ~/.ssh/id_rsa.pub
 [commit]
 	gpgsign = true
@@ -13,6 +12,4 @@
 	sort = -committerdate
 [gpg]
 	format = ssh
-[maintenance]
-	repo = /home/will/code/repos/boathouse-manager-frontend
-	repo = /home/will/code/repos/ansible
+	repo = /home/will/dotfiles
