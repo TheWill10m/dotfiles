@@ -2,6 +2,20 @@
 
 This repository contains the dotfiles I use to configure my system.
 
+## Table of contents
+
+- [dotfiles](#dotfiles)
+  - [Table of contents](#table-of-contents)
+  - [Requirements](#requirements)
+    - [Git](#git)
+    - [Stow](#stow)
+  - [Installation](#installation)
+  - [Other tools](#other-tools)
+    - [tmux](#tmux)
+    - [Tmux Plugin Manager (TPM)](#tmux-plugin-manager-tpm)
+    - [Tmuxifier](#tmuxifier)
+    - [zoxide](#zoxide)
+
 ## Requirements
 
 Ensure you have the following installed on your system.
