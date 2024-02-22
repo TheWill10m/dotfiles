@@ -122,7 +122,9 @@ export NVM_DIR="$HOME/.nvm"
 
 # ----- END OF DEFAULT CONFIG -----
 
+export XDG_CONFIG_HOME=$HOME/.config
+
 export PATH=$PATH:/usr/local/go/bin
-export PATH=$PATH:/home/will/.local/bin
+export PATH=$PATH:$HOME/.local/bin
 
 eval "$(zoxide init bash)"
