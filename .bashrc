@@ -126,5 +126,6 @@ export XDG_CONFIG_HOME=$HOME/.config
 
 export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:$HOME/.local/bin
+export PATH=$PATH:$XDG_CONFIG_HOME/tmux/plugins/tmuxifier/bin
 
 eval "$(zoxide init bash)"
