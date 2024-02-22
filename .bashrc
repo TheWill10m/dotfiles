@@ -122,10 +122,14 @@ export NVM_DIR="$HOME/.nvm"
 
 # ----- END OF DEFAULT CONFIG -----
 
+export EDITOR=vim
 export XDG_CONFIG_HOME=$HOME/.config
 
 export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:$HOME/.local/bin
 export PATH=$PATH:$XDG_CONFIG_HOME/tmux/plugins/tmuxifier/bin
 
+eval "$(tmuxifier init -)"
 eval "$(zoxide init bash)"
+
+export TMUXIFIER_LAYOUT_PATH="$XDG_CONFIG_HOME/tmux/layouts"
