@@ -39,7 +39,7 @@ apt install stow
 First, check out the dotfiles repo in your $HOME directory using git.
 
 ```bash
-git clone git@github.com/dreamsofautonomy/dotfiles.git
+git clone git@github.com:TheWill10m/dotfiles.git
 cd dotfiles
 ```
 
@@ -50,6 +50,7 @@ stow .
 ```
 
 ---
+
 ## Other tools
 
 The configuration files in this repository are used by the various tools I have installed on my system. I have many of these below, for reference.
