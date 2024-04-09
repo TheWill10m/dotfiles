@@ -129,7 +129,18 @@ export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:$HOME/.local/bin
 export PATH=$PATH:$XDG_CONFIG_HOME/tmux/plugins/tmuxifier/bin
 
+export PATH="$HOME/code/pub_repos/tmuxifier/bin:$PATH"
+# export EDITOR="/usr/bin/nvim"
+
 eval "$(tmuxifier init -)"
 eval "$(zoxide init bash)"
 
 export TMUXIFIER_LAYOUT_PATH="$XDG_CONFIG_HOME/tmux/layouts"
+
+alias docker='sudo docker'
+alias k='kubectl'
+alias kind='sudo kind'
+alias argo='sudo argo'
+alias py='python3'
+alias dc='sudo docker compose'
+alias vim='nvim'
