@@ -10,7 +10,6 @@ if initialize_session "ansible"; then
   run_cmd "source .venv/bin/activate"
 
   new_window "git"
-  run_cmd "code ."
 
   new_window "ssh"
 

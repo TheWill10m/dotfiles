@@ -8,7 +8,6 @@ if initialize_session "argocd"; then
 
   # Create a new window inline within session layout definition.
   new_window "git"
-  run_cmd "code ."
   
   new_window "kube"
   run_cmd "kubectl get node"

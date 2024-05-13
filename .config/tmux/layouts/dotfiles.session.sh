@@ -12,7 +12,6 @@ if initialize_session "dotfiles"; then
 	run_cmd "git status"
 
 	select_pane 0
-	run_cmd "code ."
 
 fi
 

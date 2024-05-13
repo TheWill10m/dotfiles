@@ -7,7 +7,6 @@ session_root "~/code/repos/charlie-will-software/piCamera"
 if initialize_session "picamera"; then
 
   new_window "git"
-  run_cmd "code ."
 
   new_window "ssh"
 
