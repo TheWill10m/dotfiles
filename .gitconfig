@@ -1,6 +1,6 @@
 [user]
 	name = Will Dalgleish
-	email = dev@wdalgleish.com
+	email = will@wdalgleish.com
 	signingkey = ~/.ssh/id_rsa.pub
 [commit]
 	gpgsign = true
@@ -13,3 +13,15 @@
 [gpg]
 	format = ssh
 	repo = /home/will/dotfiles
+[safe]
+	directory = /home/will/projects/charlie-will-software/sync-cli
+	directory = /home/will/projects/charlie-will-software/sync-cli
+
+[alias]
+	co = commit
+	com = commit -sm
+	ch = checkout
+	sw = switch
+	logo = log --oneline
+	br = branch
+	st = status
